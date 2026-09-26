@@ -52,4 +52,4 @@ Serv00 lists these limits at https://www.serv00.com/ . Check your own account qu
 
 ## License
 
-No open-source license has been selected yet. The scripts are provided for inspection, but this repository does not grant reuse rights beyond applicable law until its owner chooses a license.
+This repository is licensed under the [MIT License](LICENSE).
