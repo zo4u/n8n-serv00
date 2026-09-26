@@ -1,8 +1,12 @@
 # n8n on Serv00: a free-tier deployment case study
 
-A practical record of getting n8n running on Serv00's free hosting tier. This is a troubleshooting case study, **not a one-click installer**. The fixes reflect one installation of n8n 2.35.7 in September 2026. Check current n8n and Serv00 docs before following it.
+A practical record of getting n8n running on Serv00's free hosting tier, plus a [step-by-step installation guide](INSTALL.md) and version-checked scripts. This is **not a one-click installer**. The fixes reflect one installation of n8n 2.35.7 in September 2026. Check current n8n and Serv00 docs before following it.
 
 > Status: the editor, REST endpoint, and a restart through cron were verified on the instance used for this case study. Long-term reliability and upgrades have not been tested.
+
+## Start here
+
+Follow [INSTALL.md](INSTALL.md) for the exact commands, checks, port reservations, native builds, private startup script, cron and verification steps. The [start-script template](n8n-start.example.sh) contains placeholders, and the [2.35.7 EMFILE patch](patch-emfile-2.35.7.py) checks the upstream checksum before changing anything. Back up your data first; never upload a populated startup script.
 
 ## The constraints
 
@@ -48,4 +52,4 @@ Serv00 lists these limits at https://www.serv00.com/ . Check your own account qu
 
 ## License
 
-Choose an open-source license before publishing code or reusable scripts. This draft includes no scripts or vendor code.
+No open-source license has been selected yet. The scripts are provided for inspection, but this repository does not grant reuse rights beyond applicable law until its owner chooses a license.
