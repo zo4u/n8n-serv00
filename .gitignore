@@ -1,0 +1,13 @@
+# Secrets and local instance data
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.pem
+*.key
+id_*
+*.log
+.n8n/
+node_modules/
